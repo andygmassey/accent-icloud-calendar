@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Node/Tools
+node_modules/
+
+# Env
+.env
+*.pem
+
+# PlatformIO
+client/.pio/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+server/*.log
