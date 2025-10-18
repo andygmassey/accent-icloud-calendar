@@ -9,6 +9,12 @@ A clean, reusable fork of the Accent e‑paper display concept with:
 - Portable server (run locally, on Raspberry Pi, in Docker, or in the cloud)
 
 Quick start
+
+Server options
+- Local Python, Docker, Raspberry Pi (systemd), or Cloud (Cloud Run/App Engine). See docs/SETUP_SERVER.md.
+
+Client options
+- ESP32 config in client/include/Config.h (BASE_URL, DEVICE_KEY). See docs/SETUP_CLIENT.md.
 - Server: see docs/SETUP_SERVER.md
 - Client (ESP32): see docs/SETUP_CLIENT.md
 
@@ -32,6 +38,12 @@ Features
 - E‑paper friendly images for 12.48" display
 - /health endpoint and optional watchdog integration
 - Zero secrets in repo; .env.example provided
+
+Docs
+- docs/SETUP_SERVER.md – server setup and hosting options
+- docs/SETUP_CLIENT.md – ESP32 flashing and config
+- docs/DISPLAY_1248_GUIDE.md – hardware and power notes
+- docs/CALDAV_NOTES.md – iCloud setup and troubleshooting
 
 License and attribution
 - Based on Max Braun’s Accent (https://github.com/maxbbraun/accent)

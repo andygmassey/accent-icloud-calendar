@@ -20,15 +20,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r server/requirements.txt
-      - name: Lint placeholder (skip for now)
+      - name: Run pytest
         run: |
-          python -c "print('lint ok')"
-      - name: Run smoke test
-        run: |
-          python - <<'PY'
-          from server.main import app
-          with app.test_client() as c:
-              r = c.get('/health')
-              assert r.status_code == 200
-          print('smoke ok')
-          PY
+          python -m pip install pytest
+          pytest -q
