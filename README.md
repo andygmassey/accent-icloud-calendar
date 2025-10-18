@@ -1,5 +1,8 @@
 # accent-icloud-calendar
 
+[![server](https://github.com/andygmassey/accent-icloud-calendar/actions/workflows/server.yml/badge.svg)](https://github.com/andygmassey/accent-icloud-calendar/actions/workflows/server.yml)
+[![client](https://github.com/andygmassey/accent-icloud-calendar/actions/workflows/client.yml/badge.svg)](https://github.com/andygmassey/accent-icloud-calendar/actions/workflows/client.yml)
+
 A clean, reusable fork of the Accent e‑paper display concept with:
 - iCloud Calendar via CalDAV (no Google OAuth)
 - ESP32 client for 12.48" Waveshare e‑paper (GDEY1248Z51 + DESPI‑C1248)
