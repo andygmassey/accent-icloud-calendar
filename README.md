@@ -19,6 +19,14 @@ Where to run the server
 - Cloud (Cloud Run/App Engine/VPS): public URL, managed TLS/uptime
 Notes: Only iCloud CalDAV username and app‑specific password are required. No Google dependencies.
 
+Wiring summary (12.48" with DESPI‑C1248)
+- SPI: SCK=13, MISO=12, MOSI=14, CS=15
+- DESPI‑C1248 lines (to ESP32):
+  - CS M1=23, CS S1=22, CS M2=16, CS S2=19
+  - DC1=25, DC2=17, RST1=33, RST2=5
+  - BUSY M1=32, BUSY S1=26, BUSY M2=18, BUSY S2=4
+See docs/DISPLAY_1248_GUIDE.md for details.
+
 Features
 - iCloud CalDAV calendar discovery and event rendering
 - E‑paper friendly images for 12.48" display
