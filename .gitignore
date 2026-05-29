@@ -19,3 +19,8 @@ client/.pio/
 # Logs
 *.log
 server/*.log
+
+# E-paper display test output (root-level binary artefacts)
+/epd.bin
+/epd.png
+/epd.ppm
